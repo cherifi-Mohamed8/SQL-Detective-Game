@@ -19,7 +19,7 @@ Project: SQL Case Solver (detective-style SQL puzzle website), Web Development 2
 
 ## Pages
 | Page | File | Profile | Status |
-|------|------|---------|-------|----------|--------|
+|------|------|---------|--------|
 | Template | template.html | all | In progress |
 | Home | index.html | all |  In progress |
 | Register (form) | register.html | all | Todo |
