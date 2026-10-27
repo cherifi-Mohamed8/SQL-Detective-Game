@@ -22,14 +22,14 @@ Project: SQL Case Solver (detective-style SQL puzzle website), Web Development 2
 |------|------|---------|--------|
 | Template | template.html | all | In progress |
 | Home | index.html | all |  In progress |
-| Register (form) | register.html | all | Todo |
-| Leaderboard (table) | leaderboard.html | all | Todo |
+| Register (form) | register.html | all | To do |
+| Leaderboard (table) | leaderboard.html | all | To do |
 | Login (form) | login.html | all | Todo |
-| Cases list (table) | cases.html | player | Todo |
-| Profile (table) | profile.html | player | Todo |
-| Case (form + schema table) | case.html | player | Todo |
-| Admin dashboard (table) | admin-dashboard.html | admin | Todo |
-| Manage cases (table) | admin-cases.html | admin | Todo |
-| Create case (form) | admin-case-new.html | admin | Todo |
-| Case statistics (table) | admin-case-stats.html | admin | Todo |
-| Users (table) | admin-users.html | admin | Todo |
+| Cases list (table) | cases.html | player | To do |
+| Profile (table) | profile.html | player | To do |
+| Case (form + schema table) | case.html | player | To do |
+| Admin dashboard (table) | admin-dashboard.html | admin | To do |
+| Manage cases (table) | admin-cases.html | admin | To do |
+| Create case (form) | admin-case-new.html | admin | To do |
+| Case statistics (table) | admin-case-stats.html | admin | To do |
+| Users (table) | admin-users.html | admin | To do |
