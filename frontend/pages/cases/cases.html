@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Case Dossiers — SQL Case Solver</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&family=Space+Grotesk:wght@600;700&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="cases.css" />
+</head>
+<body>
+  <header class="layout-header">
+    <a class="brand-wrapper" href="../home/home.html">
+      <div class="brand-badge-icon">
+        <span class="material-symbols-outlined icon-20">terminal</span>
+      </div>
+      <div class="brand-meta">
+        <div class="brand-title-row">
+          <span class="brand-title">SQL Case Solver</span>
+          <span class="brand-version">v2.4</span>
+        </div>
+        <span class="brand-subtitle">Bureau of Relational Investigation</span>
+      </div>
+    </a>
+
+    <nav class="layout-nav" aria-label="Main">
+      <a href="../home/home.html" class="nav-link">Home</a>
+      <a href="../cases/cases.html" class="nav-link active">Case Dossiers</a>
+      <a href="../leaderboard/leaderboard.html" class="nav-link">Leaderboard</a>
+      <a href="../me/me.html" class="nav-link">Profile</a>
+      <a href="../admin/admin.html" class="nav-link" data-admin-only hidden>Admin Sandbox</a>
+    </nav>
+
+    <div class="header-telemetry">
+      <div class="pulse-pill" title="Server State Machine Connected">
+        <span class="pulse-dot"></span>
+        <span>Server Synced</span>
+      </div>
+      <a class="btn btn-primary btn-header" href="../login/login.html">Sign In</a>
+    </div>
+  </header>
+
+  <main class="page-container">
+    <section class="dossier-hero">
+      <div class="dossier-hero-tag">BUREAU MISSION BOARD // ACTIVE EVIDENCE FILES</div>
+      <h1 class="dossier-hero-title">Relational Case Dossiers</h1>
+      <p class="dossier-hero-desc">
+        Query evidence databases locally using the in-browser SQL engine to uncover facts,
+        identify suspects, and submit verified conclusions to the Bureau.
+      </p>
+
+      <div class="dossier-hero-stats">
+        <div class="stat-item">
+          <span class="stat-label">Total Dossiers</span>
+          <span class="stat-value" id="hero-total">—</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-label">Cases Solved</span>
+          <span class="stat-value is-solved" id="hero-solved">—</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-label">In Progress</span>
+          <span class="stat-value is-active" id="hero-progress">—</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-label">Investigator Status</span>
+          <span class="stat-value" id="hero-clearance">Field Inspector</span>
+        </div>
+      </div>
+
+      <p class="mode-note" id="mode-note">Loading…</p>
+    </section>
+
+    <div class="filter-bar">
+      <div class="filter-group">
+        <span class="filter-label">Difficulty:</span>
+        <div class="pill-group" role="group" aria-label="Filter by difficulty">
+          <button type="button" class="pill-btn active" data-difficulty="all">All</button>
+          <button type="button" class="pill-btn" data-difficulty="easy">Easy</button>
+          <button type="button" class="pill-btn" data-difficulty="medium">Medium</button>
+          <button type="button" class="pill-btn" data-difficulty="hard">Hard</button>
+        </div>
+      </div>
+
+      <div class="filter-group">
+        <span class="filter-label">Status:</span>
+        <div class="pill-group" role="group" aria-label="Filter by status">
+          <button type="button" class="pill-btn active" data-status="all">All</button>
+          <button type="button" class="pill-btn" data-status="not_started">Unopened</button>
+          <button type="button" class="pill-btn" data-status="in_progress">Under Investigation</button>
+          <button type="button" class="pill-btn" data-status="solved">Solved &amp; Verified</button>
+        </div>
+      </div>
+    </div>
+
+    <p class="results-count" id="status-pill">Accessing Bureau record repository…</p>
+
+    <div id="cases-list" class="cases-grid">
+      <p class="empty">Accessing Bureau record repository…</p>
+    </div>
+
+    <p id="error" class="error-banner" role="alert"></p>
+  </main>
+
+  <script type="module" src="cases.js"></script>
+</body>
+</html>
