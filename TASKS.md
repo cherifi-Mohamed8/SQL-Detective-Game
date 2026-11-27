@@ -74,8 +74,8 @@ Each row is one page with its own HTML, CSS and JS. The owner is the only person
 | Home           | `pages/home/`                      | @achraf-ounis                  | @cherifi-Mohamed8             | 2026-11-06   | 2026-11-20  | 2026-11-22 | Not started |
 | Login          | `pages/login/`                     | @achraf-ounis                  | @cherifi-Mohamed8             | 2026-11-07   | 2026-11-21  | 2026-11-23 | Not started |
 | Register       | `pages/register/`                  | @achraf-ounis                  | @cherifi-Mohamed8             | 2026-11-08   | 2026-11-22  | 2026-11-24 | Not started |
-| Case list      | `pages/cases/`                     | @cherifi-Mohamed8              | @zakaria-mazouzi0             | 2026-11-09   | 2026-11-23  | 2026-11-25 | Not started |
-| Case workspace | `pages/case-detail/`               | @cherifi-Mohamed8              | @zakaria-mazouzi0             | 2026-11-12   | 2026-11-26  | 2026-11-28 | Not started |
+| Case list      | `pages/cases/`                     | @cherifi-Mohamed8              | @zakaria-mazouzi0             | 2026-11-09   | 2026-11-23  | 2026-11-25 | Finished |
+| Case workspace | `pages/case-detail/`               | @cherifi-Mohamed8              | @zakaria-mazouzi0             | 2026-11-12   | 2026-11-26  | 2026-11-28 | Finished |
 | Leaderboard    | `pages/leaderboard/`               | @zakaria-mazouzi0              | @chetouaneabdelkhalek-source  | 2026-11-10   | 2026-11-24  | 2026-11-26 | Not started |
 | Profile        | `pages/me/`                        | @zakaria-mazouzi0              | @chetouaneabdelkhalek-source  | 2026-11-11   | 2026-11-25  | 2026-11-27 | Not started |
 | Admin sandbox  | `pages/admin/`                     | @chetouaneabdelkhalek-source   | @achraf-ounis                 | 2026-11-14   | 2026-11-28  | 2026-11-29 | Frontend pushed 2026-11-27 |
