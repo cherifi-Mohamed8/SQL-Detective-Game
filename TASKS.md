@@ -78,7 +78,7 @@ Each row is one page with its own HTML, CSS and JS. The owner is the only person
 | Case workspace | `pages/case-detail/`               | @cherifi-Mohamed8              | @zakaria-mazouzi0             | 2026-11-12   | 2026-11-26  | 2026-11-28 | Not started |
 | Leaderboard    | `pages/leaderboard/`               | @zakaria-mazouzi0              | @chetouaneabdelkhalek-source  | 2026-11-10   | 2026-11-24  | 2026-11-26 | Not started |
 | Profile        | `pages/me/`                        | @zakaria-mazouzi0              | @chetouaneabdelkhalek-source  | 2026-11-11   | 2026-11-25  | 2026-11-27 | Not started |
-| Admin sandbox  | `pages/admin/`                     | @chetouaneabdelkhalek-source   | @achraf-ounis                 | 2026-11-14   | 2026-11-28  | 2026-11-29 | Not started |
+| Admin sandbox  | `pages/admin/`                     | @chetouaneabdelkhalek-source   | @achraf-ounis                 | 2026-11-14   | 2026-11-28  | 2026-11-29 | Frontend pushed 2026-11-27 |
 
 ## Shared files
 
